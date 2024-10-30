@@ -1,0 +1,414 @@
+.postbox h3 {
+    margin-left: 15px;
+}
+
+#TB_window #TB_ajaxContent {
+    overflow-x: hidden;
+    margin-top: 10px;
+    height: auto;
+}
+
+#titlediv {
+    margin-bottom: 20px;
+}
+
+span.shortcode {
+    padding: 8px 0;
+}
+
+#poststuff .inside {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+#cs-shortcode {
+    background: transparent;
+    color: #fff;
+    font-size: 12px;
+    border: none;
+    box-shadow: none;
+    padding: 4px 8px;
+    margin: 0;
+    width: 100%
+}
+
+.cs-contact-hl {
+    overflow: hidden;
+}
+
+.cs-contact-settings label {
+    font-weight: 500;
+}
+
+.cs-contact-table {
+    background: #fff;
+    border-spacing: 0;
+    border-radius: 0;
+    table-layout: auto;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    clear: both;
+    box-sizing: content-box;
+    border-color: #eeeeee;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+}
+
+.cs-contact-table tr td {
+    border-color: #eeeeee;
+    border-width: 1px 0 0 1px;
+    border-style: solid;
+}
+
+.cs-contact-table .cs-contact-label {
+    padding: 15px 12px;
+    margin: 0;
+    background: #F9F9F9;
+    width: 20%;
+}
+
+.cs-contact-table .cs-contact-input {
+    padding: 15px 12px;
+    margin: 0;
+    border-left-color: #E1E1E1;
+}
+
+.cs-contact-input-wrap {
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.cs-contact-input-wrap input,
+.cs-contact-input select {
+    width: 100%;
+    padding: 4px 8px;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 1.4;
+    max-width: 100%;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 30px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 22px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(22px);
+    -ms-transform: translateX(22px);
+    transform: translateX(22px);
+}
+
+.cs-contact-fr {
+    float: right;
+}
+
+
+/* Style the tab */
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+
+/* Style the buttons that are used to open the tab content */
+
+.tab .tablinks {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+
+/* Change background color of buttons on hover */
+
+.tab .tablinks:hover {
+    background-color: #ddd;
+}
+
+
+/* Create an active/current tablink class */
+
+.tab .tablinks.active {
+    background-color: #ccc;
+}
+
+
+/* Style the tab content */
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    display: none;
+}
+
+.tabcontent.active {
+    display: block;
+}
+
+.cs-contact-list-wrap {
+    border: #ccd0d4 solid 1px;
+}
+
+ul.cs-contact-thead {
+    color: #23282d;
+    overflow: hidden;
+}
+
+ul.cs-contact-thead li {
+    width: 33%;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: bold;
+    float: left;
+    display: block;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 8px 12px;
+}
+
+.cs-contact-list {
+    border-top: #eeeeee solid 1px;
+    background: #fff;
+    padding: 5px 0;
+    overflow: hidden;
+}
+
+.cs-contact-list ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.cs-contact-list ul li {
+    width: 33%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    padding: 8px 12px;
+    font-size: 12px;
+    line-height: 14px;
+    float: left;
+}
+
+.cs-contact-tfoot {
+    background: #f5f5f5;
+    border-top: #d5d9dd solid 1px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.cs-contact-tfoot a.add-field {
+    margin: 10px 10px 5px;
+}
+
+.cs-order-icon {
+    border-color: #fff;
+    color: #fff;
+    margin: 1px 0 0;
+    cursor: move;
+    background: transparent;
+    float: left;
+    height: 28px;
+    line-height: 26px;
+    width: 28px;
+    font-size: 13px;
+    color: #444;
+    position: relative;
+    z-index: 1;
+    border: #b5bcc2 solid 1px;
+    border-radius: 100%;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.row-options a {
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.row-options a.delete-field {
+    color: #a00;
+}
+
+.row-options {
+    visibility: hidden;
+}
+
+.cs-contact-list:hover .row-options {
+    visibility: visible;
+}
+
+#error-message {
+    color: red;
+    margin-top: 10px;
+    line-height: 0.8;
+}
+
+
+/* Config Style */
+
+fieldset {
+    border: #ccd0d4 1px solid;
+    overflow: hidden;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+tr.options {
+    display: none;
+}
+
+#option-value {
+    overflow: hidden;
+}
+
+#option-value legend {
+    font-size: 12px;
+}
+
+.option-field {
+    width: 49%;
+    float: left;
+}
+
+.option-field textarea {
+    width: 100%;
+    font-size: 12px;
+}
+
+#option-default {
+    float: right;
+}
+
+.cs_documentaion_wrapper {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: nowrap;
+}
+
+.cs_documentaion_wrapper .cs_block {
+    width: 25%;
+    margin-bottom: 30px;
+    padding-right: 30px;
+}
+
+.cs_documentaion_wrapper .cs_block .cs_block_box {
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 5%);
+    padding: 15px;
+    text-align: center;
+}
+
+.cs_documentaion_wrapper .cs_block .cs_block_box img {
+    max-width: 80px;
+}
+
+.upgrade_pro {
+    margin-top: 0;
+}
+
+.upgrade_box {
+    width: 23.5%;
+    margin-bottom: 30px;
+    padding-right: 30px;
+}
+
+.upgrade_box .cs_block_box {
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 5%);
+    padding: 15px;
+    text-align: center;
+}
+
+.upgrade_box .cs_block_box img {
+    max-width: 130px;
+}
+
+.upgrade_box .cs_block_box p {
+    text-align: left;
+}
+
+.upgrade_box .dashicons-saved {
+    color: green;
+}
+
+.btn_upgrade {
+    background-image: linear-gradient(to bottom right, #e74b47, #ed8212);
+    border: none;
+    font-weight: bold;
+    padding: 6px 15px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn_upgrade:hover {
+    background-color: #ed8212;
+    color: #fff;
+}
